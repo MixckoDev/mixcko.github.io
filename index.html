@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="weather-container">
+      <h1>Weather App</h1>
+      <input type="text" id="city" placeholder="Enter city name" />
+      <button id="getWeatherBtn">Get Weather</button>
+      <button id="geoLocationBtn">Use My Location</button>
 
+      <div id="weatherResult">
+        <h2 id="cityName"></h2>
+        <p id="temp"></p>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+
+      <div id="forecast">
+        <h3>5-Day Forecast</h3>
+        <div id="forecastCards"></div>
+      </div>
+
+      <div id="unitToggle">
+        <label for="unit">Temperature Unit: </label>
+        <select id="unit" name="unit">
+          <option value="metric">Celsius</option>
+          <option value="imperial">Fahrenheit</option>
+          <option value="standard">Kelvin</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
