@@ -1,6 +1,3 @@
-Here is your **README.md** formatted in **GitHub-flavored Markdown**:
-
-```markdown
 # Weather App 🌤️
 
 Welcome to the Weather App! This is a simple, interactive web application that allows users to check real-time weather data for any city around the world. Built using HTML, CSS, and JavaScript, this app fetches live weather data from the OpenWeatherMap API.
