@@ -11,7 +11,7 @@ Welcome to the Weather App! This is a simple, interactive web application that a
 
 ## Preview 📸
 
-![Weather App Screenshot](path-to-screenshot.png)
+![Weather App Screenshot](Capture.JPG)
 
 An example of how the weather app looks and feels when you search for a city.
 
