@@ -1,1 +1,91 @@
 
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  display: none;
+}
+
+#forecast {
+  display: block;
+  margin-top: 20px;
+}
+
+#forecastCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensure that the cards wrap to the next row */
+  gap: 10px; /* Add some spacing between the cards */
+  padding: 10px;
+}
+
+.forecast-card {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card img {
+  width: 40px; /* Adjust icon size */
+  height: 40px;
+}
+
+.forecast-card p {
+  margin: 5px 0;
+}
+
+#unitToggle {
+  margin-top: 20px;
+}
+
+#geoLocationBtn {
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+#geoLocationBtn:hover {
+  background-color: #0056b3;
+}
