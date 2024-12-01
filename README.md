@@ -83,7 +83,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Thanks for checking out the Weather App! 🌞 We hope it helps you stay informed about the weather anywhere in the world. Feel free to improve or contribute to the project as you see fit.
 ```
-
-This is formatted in **GitHub-flavored Markdown** (GFM) and can be directly copied into your `README.md` file in your GitHub repository. The preview image link (`path-to-screenshot.png`) should be replaced with the actual file path to a screenshot if you'd like to display one.
-
-Let me know if you need any further modifications!
