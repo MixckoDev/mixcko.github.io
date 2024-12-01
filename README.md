@@ -82,4 +82,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Thanks for checking out the Weather App! 🌞 We hope it helps you stay informed about the weather anywhere in the world. Feel free to improve or contribute to the project as you see fit.
-```
